@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.core.view.isVisible
+import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
+import com.cursokotlin.mvvmexample.R
 import com.cursokotlin.mvvmexample.databinding.ActivityMainBinding
 import com.cursokotlin.mvvmexample.ui.viewmodel.QuoteViewModel
 
@@ -16,21 +18,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
         quoteViewModel.onCreate()
-
-        quoteViewModel.quoteModel.observe(this, Observer {
-            binding.tvQuote.text = it.title
-            binding.tvAuthor.text = it.body
-        })
-        quoteViewModel.isLoading.observe(this, Observer {
-            binding.loading.isVisible = it
-        })
-
-        binding.viewContainer.setOnClickListener { quoteViewModel.randomQuote() }
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        binding.viewmodel = quoteViewModel
+        binding.lifecycleOwner = this
 
     }
-
 }

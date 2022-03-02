@@ -3,7 +3,22 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/cursokotlin/mvvmexample/DataBinderMapperImpl.java">
           <value>
             <set />
           </value>
@@ -13,12 +28,67 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/ImagesRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/model/ImageModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/model/QuoteModel.kt">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/model/QuoteProvider.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/network/ImagesApiClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/network/ImagesService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/network/QuoteApiClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/network/QuoteService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/network/apis/ImagesApiClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/network/apis/QuoteApiClient.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/network/repos/ImagesRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/data/network/service/ImagesService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/domain/GetImageUseCase.kt">
           <value>
             <set />
           </value>
@@ -29,6 +99,31 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/ui/view/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/ui/viewmodel/QuoteViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/utils/BindingAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/utils/BindingImage.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/themes.xml">
           <value>
             <set />
           </value>

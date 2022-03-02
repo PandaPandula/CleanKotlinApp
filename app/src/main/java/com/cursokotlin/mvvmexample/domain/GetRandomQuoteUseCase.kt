@@ -1,6 +1,5 @@
 package com.cursokotlin.mvvmexample.domain
 
-import com.cursokotlin.mvvmexample.data.QuoteRepository
 import com.cursokotlin.mvvmexample.data.model.QuoteModel
 import com.cursokotlin.mvvmexample.data.model.QuoteProvider
 

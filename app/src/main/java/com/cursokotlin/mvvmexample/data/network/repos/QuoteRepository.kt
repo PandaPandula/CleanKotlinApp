@@ -1,8 +1,8 @@
-package com.cursokotlin.mvvmexample.data
+package com.cursokotlin.mvvmexample.data.network.repos
 
 import com.cursokotlin.mvvmexample.data.model.QuoteModel
 import com.cursokotlin.mvvmexample.data.model.QuoteProvider
-import com.cursokotlin.mvvmexample.data.network.QuoteService
+import com.cursokotlin.mvvmexample.data.network.service.QuoteService
 
 class QuoteRepository {
 
