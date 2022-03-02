@@ -32,7 +32,7 @@ class QuoteViewModel : ViewModel() {
             val imageCat = getImageUseCase()
             if(!result.isNullOrEmpty()){
                 quoteModel.set(result[0])
-                imageModel.set(imageCat[0])
+                if (!imageCat.isNullOrEmpty()) imageModel.set(imageCat[0])
                 isLoading.set(false)
             }
         }
@@ -45,7 +45,7 @@ class QuoteViewModel : ViewModel() {
             val image = getImageUseCase()
             if(quote!=null){
                 quoteModel.set(quote)
-                imageModel.set(image[0])
+                if (!image.isNullOrEmpty()) imageModel.set(image[0])
             }
             isLoading.set(false)
         }

@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../Code/UseCaseChangeZone/src/main/java/com/mango/rfid/usecasechangezone/presentation/ChangeZoneActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/README.md">
           <value>
             <set />
@@ -94,6 +99,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/domain/GetImageUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/cursokotlin/mvvmexample/domain/GetQuotesUseCase.kt">
           <value>
             <set />
           </value>
