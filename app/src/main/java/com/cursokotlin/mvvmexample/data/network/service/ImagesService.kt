@@ -12,6 +12,7 @@ class ImagesService {
     suspend fun getImage(): List<ImageModel> {
        return withContext(Dispatchers.IO){
            val response = retrofit.create(ImagesApiClient::class.java).getImage()
+           val a = 1
            response.body() ?: emptyList()
        }
     }

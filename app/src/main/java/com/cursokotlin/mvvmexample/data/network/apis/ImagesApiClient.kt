@@ -6,6 +6,6 @@ import retrofit2.Response
 import retrofit2.http.GET
 
 interface ImagesApiClient {
-    @GET("/images/search")
+    @GET("/v1/images/search")
     suspend fun getImage(): Response<List<ImageModel>>
 }

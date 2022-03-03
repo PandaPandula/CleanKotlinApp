@@ -12,7 +12,7 @@ object RetrofitHelper {
     }
     fun getImagesRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://api.thecatapi.com/v1/")
+            .baseUrl("https://api.thecatapi.com/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
